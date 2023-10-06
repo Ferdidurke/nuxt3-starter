@@ -1,7 +1,7 @@
 {
 	"name": "nuxt-app-starter",
 	"private": true,
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Nuxt3 with MongoDB SSR Full-Stack App Template",
 	"keywords": [
 		"SSR",
@@ -25,7 +25,8 @@
 		"analyze": "npx nuxi analyze",
 		"clean": "npx nuxi clean",
 		"test": "vitest --run --coverage",
-		"test:watch": "vitest"
+		"test:watch": "vitest",
+		"postversion": "git push --tags"
 	},
 	"dependencies": {
 		"@element-plus/nuxt": "^1.0.4",
