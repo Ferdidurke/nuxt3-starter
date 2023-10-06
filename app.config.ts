@@ -4,6 +4,7 @@ export default defineAppConfig({
 		dark: true,
 		colors: {
 			primary: '#ff0000',
+			secondary: '#123213',
 		},
 	},
 });

@@ -1,7 +1,7 @@
 {
 	"name": "nuxt-app-starter",
 	"private": true,
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Nuxt3 with MongoDB SSR Full-Stack App Template",
 	"keywords": [
 		"SSR",
@@ -74,8 +74,8 @@
 		"node": "^18.16.0"
 	},
 	"lint-staged": {
-		"*.{js,vue}": "eslint --cache --fix",
-		"*.{js,vue,css,md,html,json}": "prettier --cache --write",
+		"*.{js,ts,vue}": "eslint --cache --fix",
+		"*.{js,ts,vue,css,md,html,json}": "prettier --cache --write",
 		"*.js": "eslint --cache --fix"
 	}
 }
