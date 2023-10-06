@@ -1,7 +1,7 @@
 {
 	"name": "nuxt-app-starter",
 	"private": true,
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Nuxt3 with MongoDB SSR Full-Stack App Template",
 	"keywords": [
 		"SSR",
@@ -28,7 +28,7 @@
 		"test:watch": "vitest",
 		"yarn:patch": "yarn version --patch",
 		"yarn:minor": "yarn version --minor",
-		"yarn:major": "yarn version --major",
+		"yarn:major": "yarn version --major --preid 123",
 		"postversion": "git push --tags"
 	},
 	"dependencies": {
