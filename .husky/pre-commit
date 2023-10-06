@@ -3,3 +3,4 @@
 
 echo "123"
 yarn lint-staged
+yarn version
