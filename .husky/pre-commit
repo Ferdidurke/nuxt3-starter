@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+npx lint-staged
 echo "123"
-yarn version --no-git-tag-version --new-version \"$(gitversion -showvariable MajorMinorPatch)\" && lint-staged
